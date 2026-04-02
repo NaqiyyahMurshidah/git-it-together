@@ -25,6 +25,12 @@ members/
   member3.html      ← Member 3's profile (already wired up in index.html)
   member4.html      ← Member 4's profile (already wired up in index.html)
   example.html      ← Reference template showing the structure
+profile/
+  member1.png       ← Member 1's profile picture (replace with your own)
+  member2.png       ← Member 2's profile picture (replace with your own)
+  member3.png       ← Member 3's profile picture (replace with your own)
+  member4.png       ← Member 4's profile picture (replace with your own)
+assets/             ← Workshop logo & mascot images (don't modify)
 styles.css          ← Shared stylesheet (don't modify this)
 README.md           ← You are here
 ```
@@ -84,7 +90,7 @@ Replace all the placeholder text with your own info:
 
 | Placeholder | Replace with |
 |---|---|
-| `🙋` | Any emoji that represents you |
+| `profile/memberN.png` | Replace the file with your own photo (keep the same filename) |
 | `YOUR NAME` | Your full name |
 | `YOUR ROLE` | Your role, title, or how you'd describe yourself |
 | The bio text | 2–3 sentences about yourself |
@@ -100,7 +106,7 @@ Open your file directly in a browser to preview your card before committing!
 ### Step 5 — Stage and commit
 
 ```bash
-git add members/memberN.html   # replace N with your number
+git add members/memberN.html profile/memberN.png   # replace N with your number
 git status
 git commit -m "Add profile for Your Name"
 ```
